@@ -10,6 +10,8 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
 const app = express();
+
+const db = require('./helper/db')();
 // console.log(process.env.NAME); // Ortam değişkeninin valuesini döner.
 
 // view engine setup
